@@ -1,7 +1,7 @@
 #include <Arduino.h>
-// --- PINOS CORRIGIDOS PARA A SUA MONTAGEM ---
-const int pinoTrig = 27;  // Pino D27 (que pode ser Saída)
-const int pinoEcho = 35; // Pino D35 (que é Entrada, perfeito!)
+// --- PINOS CORRIGIDOS PARA O NOVO TESTE ---
+const int pinoTrig = 26;  // Pino D26 (Saída)
+const int pinoEcho = 25; // Pino D25 (Entrada)
 
 // --- VARIÁVEIS GLOBAIS ---
 long duracao;
@@ -12,11 +12,11 @@ const int LIMITE_QUASE_CHEIA = 30;
 void setup() {
   Serial.begin(115200); 
   
-  pinMode(pinoTrig, OUTPUT); // D27 configurado como SAÍDA
-  pinMode(pinoEcho, INPUT);  // D35 configurado como ENTRADA
+  pinMode(pinoTrig, OUTPUT); // D26 configurado como SAÍDA
+  pinMode(pinoEcho, INPUT);  // D25 configurado como ENTRADA
 
   Serial.println(">>> Lixeira Automática - Monitor de Status (Real) <<<");
-  Serial.println("Testando com Trig no D27 e Echo no D35...");
+  Serial.println("Testando com Trig no D26 e Echo no D25...");
 }
 
 void loop() {
