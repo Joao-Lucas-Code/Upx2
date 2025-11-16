@@ -1,7 +1,7 @@
 // --- DEFINIÇÕES DO BLYNK (AS SUAS CREDENCIAIS CORRETAS) ---
-#define BLYNK_TEMPLATE_ID "#YOUR_TEMPLATE"
-#define BLYNK_TEMPLATE_NAME "#YOUR_TEMPLATE_NAME"
-#define BLYNK_AUTH_TOKEN "#YOUR_BLYNK"
+#define BLYNK_TEMPLATE_ID "#"
+#define BLYNK_TEMPLATE_NAME "#"
+#define BLYNK_AUTH_TOKEN "#"
 
 // --- DEFINIÇÕES DE HARDWARE E BIBLIOTECAS ---
 #define BLYNK_PRINT Serial
@@ -26,9 +26,10 @@ BlynkTimer timer; // O timer do Blynk
 float distancia;
 String statusLixeira;
 
-// --- LIMITES DA LIXEIRA ---
-const int LIMITE_CHEIA = 10;       
-const int LIMITE_QUASE_CHEIA = 30; 
+// --- LIMITES DA LIXEIRA (CALIBRADO PARA 27CM) ---
+const int LIMITE_CHEIA = 7;       // Se a distância for MENOR que 7cm = Cheia
+const int LIMITE_QUASE_CHEIA = 15;  // Se for MENOR que 15cm = Quase Cheia
+// Qualquer coisa maior que 15cm = Vazia
 
 // ESTA FUNÇÃO RODA A CADA 2 SEGUNDOS
 void sendSensorData() {
@@ -43,14 +44,21 @@ void sendSensorData() {
   long duracao = pulseIn(pinoEcho, HIGH, 30000); 
   distancia = duracao * 0.0343 / 2;
 
-  // --- LÓGICA PRINCIPAL ---
-  if (distancia == 0) {
-    statusLixeira = "Falha no sensor";
-  } else if (distancia <= LIMITE_CHEIA) {
+  // --- LÓGICA PRINCIPAL (AJUSTADA) ---
+  if (distancia == 0 || distancia > 27) { // Se a leitura falhar ou for maior que o fundo
+    statusLixeira = "Vazia"; // Assume "Vazia" (ou "Erro")
+    if (distancia == 0) {
+      statusLixeira = "Falha no sensor";
+    }
+    distancia = 27; // Trava a distância em 27 (fundo)
+  }
+  else if (distancia <= LIMITE_CHEIA) {
     statusLixeira = "LIXEIRA CHEIA!";
-  } else if (distancia <= LIMITE_QUASE_CHEIA) {
+  } 
+  else if (distancia <= LIMITE_QUASE_CHEIA) {
     statusLixeira = "Quase cheia...";
-  } else {
+  } 
+  else {
     statusLixeira = "Vazia";
   }
 
