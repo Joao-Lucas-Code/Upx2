@@ -106,7 +106,7 @@ O projeto utiliza a plataforma **Blynk** para visualização de dados.
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/guilherme-klimam-villela-de-sousa-7a3784215/">
-        <img src="images/membros/guilherme.png" width="100px;" alt=""/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEntq5i03PiBg/profile-displayphoto-shrink_800_800/B4DZZaM24EG0Ak-/0/1745270043336?e=1766016000&v=beta&t=fMMH12N6I66IiXh5UYIWRKjPRzcGlP3K9CZSEEieBpg" width="100px;" alt=""/><br>
         <sub><b>Guilherme Kliman</b></sub>
       </a>
     </td>
