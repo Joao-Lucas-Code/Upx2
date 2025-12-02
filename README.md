@@ -87,32 +87,32 @@ O projeto utiliza a plataforma **Blynk** para visualização de dados.
 <table>
   <tr>
     <td align="center">
-      <a href="LINK_DO_LINKEDIN_DO_ANDREW">
-        <img src="https://ui-avatars.com/api/?name=Andrew+Fernandes&background=random" width="100px;" alt=""/><br>
+      <a href="https://www.linkedin.com/in/andrew-monteiro1313/">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGq1rDqbyZGvw/profile-displayphoto-crop_800_800/B4DZjjAlOpH4AI-/0/1756155238119?e=1766016000&v=beta&t=7oV1uQiTuJbYuc1mcSj4Oc7iISp7gVcajGEb-OoWgi0" width="100px;" alt=""/><br>
         <sub><b>Andrew Fernandes</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="LINK_DO_LINKEDIN_DO_CAUA">
-        <img src="https://ui-avatars.com/api/?name=Caua+Mendes&background=random" width="100px;" alt=""/><br>
+      <a href="https://www.linkedin.com/in/cau%C3%A3-mendes-639ab7355/">
+        <img src="images/membros/caua.png" width="100px;" alt=""/><br>
         <sub><b>Cauã Mendes</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="LINK_DO_LINKEDIN_DO_EDUARDO">
-        <img src="https://ui-avatars.com/api/?name=Eduardo+Furlanetto&background=random" width="100px;" alt=""/><br>
+      <a href="https://www.linkedin.com/in/eduardo-furlanetto/">
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQFnzSCbdNB8DQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731336893128?e=1766016000&v=beta&t=qv6nxLXbxWHxQBFuGy5dTIbB-bWXsrH89D6r7GCVjFA" width="100px;" alt=""/><br>
         <sub><b>Eduardo Furlanetto</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="LINK_DO_LINKEDIN_DO_GUILHERME">
-        <img src="https://ui-avatars.com/api/?name=Guilherme+Kliman&background=random" width="100px;" alt=""/><br>
+      <a href="https://www.linkedin.com/in/guilherme-klimam-villela-de-sousa-7a3784215/">
+        <img src="images/membros/guilherme.png" width="100px;" alt=""/><br>
         <sub><b>Guilherme Kliman</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="LINK_DO_LINKEDIN_DO_JOAO">
-        <img src="https://ui-avatars.com/api/?name=João+Lucas&background=random" width="100px;" alt=""/><br>
+      <a href="https://www.linkedin.com/in/joaogomes6/">
+        <img src="images/membros/joao.jpg" width="100px;" alt=""/><br>
         <sub><b>João Lucas</b></sub>
       </a>
     </td>
@@ -123,9 +123,4 @@ O projeto utiliza a plataforma **Blynk** para visualização de dados.
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
 <p align="center">Desenvolvido com 💙 por alunos da Facens</p>
