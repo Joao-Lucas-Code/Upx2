@@ -1,7 +1,7 @@
 // --- DEFINIÇÕES DO BLYNK (AS SUAS CREDENCIAIS CORRETAS) ---
-#define BLYNK_TEMPLATE_ID "#"
-#define BLYNK_TEMPLATE_NAME "#"
-#define BLYNK_AUTH_TOKEN "#"
+#define BLYNK_TEMPLATE_ID "SEU_ID"
+#define BLYNK_TEMPLATE_NAME "SEU_DEVICE"
+#define BLYNK_AUTH_TOKEN "SEU_TOKEN"
 
 // --- DEFINIÇÕES DE HARDWARE E BIBLIOTECAS ---
 #define BLYNK_PRINT Serial
@@ -18,8 +18,8 @@ const int pinoEcho = 25; // Fio Amarelo (Entrada)
 #define VPIN_STATUS V1
 
 // --- SEU WI-FI ---
-char ssid[] = "#";
-char pass[] = "#";
+char ssid[] = "SUA_REDE_WIFI";
+char pass[] = "SUA_SENHA";
 
 // --- VARIÁVEIS GLOBAIS ---
 BlynkTimer timer; // O timer do Blynk
