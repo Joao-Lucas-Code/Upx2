@@ -12,7 +12,7 @@
 ## 📸 O Projeto
 
 <div align="center">
-<img src="images/lixeira_final.jpg" alt="Protótipo Final" width="550" height="550"/>
+<img src="images/lixeira_final.jpg" alt="Protótipo Final" width="550" height="650"/>
 </div>
 
 ### 🎯 O Problema
