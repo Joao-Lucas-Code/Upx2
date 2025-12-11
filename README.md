@@ -57,7 +57,7 @@ O projeto utiliza a plataforma **Blynk** para visualização de dados.
 * 📊 **Conectividade:** Indicador de status online/offline.
 
 <div align="center">
-<img src="images/app_resultado.jpg" alt="App Blynk" width="550" height="550"/>
+<img src="images/app_resultado.jpg" alt="App Blynk" width="550" height="700"/>
 </div>
 
 ---
