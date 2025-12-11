@@ -11,7 +11,7 @@
 
 ## 📸 O Projeto
 
-![Protótipo Final](images/lixeira_final.jpg)
+<img src="images/lixeira_final.jpg" alt="Protótipo Final" width="300" height="200"/>
 
 ### 🎯 O Problema
 A coleta de lixo urbana tradicional é ineficiente. Caminhões percorrem rotas fixas diariamente, gastando combustível e tempo para verificar lixeiras que muitas vezes estão vazias, enquanto outras transbordam, causando problemas sanitários e má experiência para a população.
