@@ -59,6 +59,7 @@ O projeto utiliza a plataforma **Blynk** para visualização de dados.
 <div align="center">
 <img src="images/app_resultado.jpg" alt="App Blynk" width="550" height="550"/>
 </div>
+
 ---
 
 ## 🚀 Como Executar o Projeto
