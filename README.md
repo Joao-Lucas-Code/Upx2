@@ -34,7 +34,9 @@ Desenvolvemos um dispositivo de baixo custo capaz de monitorar o nível de preen
 
 ### 🔌 Esquema de Ligação (Pinout)
 
+<div align="center">
 <img src="images/circuito_final.jpg" alt="Diagrama Elétrico" width="550" height="550"/>
+</div>
 
 | Sensor HC-SR04 | ESP32 |
 | :--- | :--- |
@@ -54,8 +56,9 @@ O projeto utiliza a plataforma **Blynk** para visualização de dados.
 * ⚠️ **Status Dinâmico:** Informa se está "Vazia", "Quase Cheia" ou "LIXEIRA CHEIA!".
 * 📊 **Conectividade:** Indicador de status online/offline.
 
+<div align="center">
 <img src="images/app_resultado.jpg" alt="App Blynk" width="550" height="550"/>
-
+</div>
 ---
 
 ## 🚀 Como Executar o Projeto
