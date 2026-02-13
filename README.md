@@ -72,7 +72,7 @@ O projeto utiliza a plataforma **Blynk** para visualização de dados.
 ### Instalação
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/SEU_USUARIO/NOME_DO_REPO.git](https://github.com/SEU_USUARIO/NOME_DO_REPO.git)
+    git clone [https://github.com/Joao-Lucas-Code/Upx2.git](https://github.com/Joao-Lucas-Code/Upx2.git)
     ```
 2.  Abra o arquivo `.ino` na Arduino IDE.
 3.  Instale a biblioteca **Blynk** pelo Gerenciador de Bibliotecas.
