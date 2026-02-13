@@ -94,7 +94,7 @@ O projeto utiliza a plataforma **Blynk** para visualização de dados.
   <tr>
     <td align="center">
       <a href="https://www.linkedin.com/in/andrew-monteiro1313/">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGq1rDqbyZGvw/profile-displayphoto-crop_800_800/B4DZjjAlOpH4AI-/0/1756155238119?e=1766016000&v=beta&t=7oV1uQiTuJbYuc1mcSj4Oc7iISp7gVcajGEb-OoWgi0" width="100px;" alt=""/><br>
+        <img src="https://instagram.fcpq7-1.fna.fbcdn.net/v/t51.2885-19/634342039_18392924356198334_5755015722911167022_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fcpq7-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2QHtSAcCJ94gxtil8Zc7PmWlKslAbXe4qgBj97e1opxRxeLfJIvx_N10Ur4w5e0cVQU&_nc_ohc=91WOKDxOcigQ7kNvwEs5qEm&_nc_gid=klOJumimlO5DIn2dhSdL9Q&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Afu_-HoaAcUev5Zzz7qx__GyxTdXbeb0z8bzpgVFXp9tHw&oe=69955F2D&_nc_sid=7a9f4b" width="100px;" alt=""/><br>
         <sub><b>Andrew Fernandes</b></sub>
       </a>
     </td>
